@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://dev77567.service-now.com/"/>
+  <test thread-count="5" verbose="5" name="Test(failed)">
+    <classes>
+      <class name="org.testleaf.servicenow.testcases.SN_TC_01">
+        <methods>
+          <include name="wakeUpBrowser"/>
+          <include name="ServiceNowTestcase"/>
+        </methods>
+      </class> <!-- org.testleaf.servicenow.testcases.SN_TC_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

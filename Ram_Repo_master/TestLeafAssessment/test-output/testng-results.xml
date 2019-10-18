@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114369" started-at="2019-09-27T08:58:07Z" finished-at="2019-09-27T09:00:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="114369" started-at="2019-09-27T08:58:07Z" finished-at="2019-09-27T09:00:02Z">
+      <class name="org.testleaf.servicenow.testcases.SN_TC_01">
+        <test-method status="PASS" signature="setData()[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="setData" is-config="true" duration-ms="66" started-at="2019-09-27T08:58:07Z" finished-at="2019-09-27T08:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="wakeUpBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="wakeUpBrowser" is-config="true" duration-ms="17836" started-at="2019-09-27T08:58:10Z" finished-at="2019-09-27T08:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://dev77567.service-now.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wakeUpBrowser -->
+        <test-method status="PASS" signature="ServiceNowTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="ServiceNowTestcase" duration-ms="34844" started-at="2019-09-27T08:58:28Z" data-provider="serviceNowDB" finished-at="2019-09-27T08:59:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incident]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abel Tuter]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServiceNowTestcase -->
+        <test-method status="PASS" signature="killBrowser()[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="killBrowser" is-config="true" duration-ms="3801" started-at="2019-09-27T08:59:03Z" finished-at="2019-09-27T08:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killBrowser -->
+        <test-method status="PASS" signature="wakeUpBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="wakeUpBrowser" is-config="true" duration-ms="14688" started-at="2019-09-27T08:59:07Z" finished-at="2019-09-27T08:59:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://dev77567.service-now.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wakeUpBrowser -->
+        <test-method status="PASS" signature="ServiceNowTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="ServiceNowTestcase" duration-ms="37610" started-at="2019-09-27T08:59:21Z" data-provider="serviceNowDB" finished-at="2019-09-27T08:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incident]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham Lincoln]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServiceNowTestcase -->
+        <test-method status="PASS" signature="killBrowser()[pri:0, instance:org.testleaf.servicenow.testcases.SN_TC_01@14bf9759]" name="killBrowser" is-config="true" duration-ms="2497" started-at="2019-09-27T08:59:59Z" finished-at="2019-09-27T09:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killBrowser -->
+      </class> <!-- org.testleaf.servicenow.testcases.SN_TC_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
